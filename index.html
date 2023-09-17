@@ -1,0 +1,198 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag{
+      width:900px;
+      height:600px;
+      background-color:#FF671F,;
+      position:relative;
+      
+    }
+    .flag > div{
+      width:900px;
+      height:300px;
+      
+      position:absolute;
+      top:150px;
+
+    }
+    .flag > div >div{
+      width:200px;
+      height:200px;
+      border-radius:50%;
+      background-color:white;
+      position:relative;
+      top:50px;
+      left:350px
+    }
+
+    p{
+      margin:0;
+      font-size :5rem;
+      text-align:center;
+    }
+    
+    body>div>div>div>p{
+      color:black;
+    }
+
+    
+  </style>
+</head>
+
+<!-- 
+  IMPORTANT! Do not change any HTML
+Don't add any classes/ids/elements 
+Use what you know about combining selectors 
+and CSS specificity instead.
+Hint 1: The flag is 900px by 600px and the circle is 200px by 200px.
+Hint 2: You can use CSS inspection to get the colors from
+https://appbrewery.github.io/flag-of-laos/
+-->
+
+<!-- <body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html> --> -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Indian Flag</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #fff;
+            
+        }
+        
+        .flag {
+            width: 300px;
+            height: 200px;
+            border: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .stripe {
+            flex: 1;
+            width: 100%;
+            display: flex;
+        }
+        
+        .saffron {
+            background-color: #FF9933;
+        }
+        
+        .white {
+            background-color: #fff;
+        }
+        
+        .green {
+            background-color: #138808;
+        }
+        
+        .chakra {
+            width: 100px;
+            height: 100px;
+            background-color: #000080;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .spoke {
+            width: 2px;
+            height: 40px;
+            background-color: #fff;
+            position: absolute;
+            transform-origin: center;
+        }
+        
+        .spoke:nth-child(1) { transform: rotate(15deg); }
+        .spoke:nth-child(2) { transform: rotate(30deg); }
+        .spoke:nth-child(3) { transform: rotate(45deg); }
+        .spoke:nth-child(4) { transform: rotate(60deg); }
+        .spoke:nth-child(5) { transform: rotate(75deg); }
+        .spoke:nth-child(6) { transform: rotate(90deg); }
+        .spoke:nth-child(7) { transform: rotate(105deg); }
+        .spoke:nth-child(8) { transform: rotate(120deg); }
+        .spoke:nth-child(9) { transform: rotate(135deg); }
+        .spoke:nth-child(10) { transform: rotate(150deg); }
+        .spoke:nth-child(11) { transform: rotate(165deg); }
+        .spoke:nth-child(12) { transform: rotate(180deg); }
+        .spoke:nth-child(13) { transform: rotate(195deg); }
+        .spoke:nth-child(14) { transform: rotate(210deg); }
+        .spoke:nth-child(15) { transform: rotate(225deg); }
+        .spoke:nth-child(16) { transform: rotate(240deg); }
+        .spoke:nth-child(17) { transform: rotate(255deg); }
+        .spoke:nth-child(18) { transform: rotate(270deg); }
+        .spoke:nth-child(19) { transform: rotate(285deg); }
+        .spoke:nth-child(20) { transform: rotate(300deg); }
+        .spoke:nth-child(21) { transform: rotate(315deg); }
+        .spoke:nth-child(22) { transform: rotate(330deg); }
+        .spoke:nth-child(23) { transform: rotate(345deg); }
+        .spoke:nth-child(24) { transform: rotate(360deg); }
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="stripe saffron"></div>
+        <div class="stripe white">
+            <div class="chakra">
+                <!-- Chakra spokes -->
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div> 
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+                <div class="spoke"></div> 
+                <div class="spoke"></div>
+                <div class="spoke"></div>
+            </div>
+        </div>
+        <div class="stripe green"></div>
+    </div>
+</body>
+</html>
